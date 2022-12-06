@@ -55,7 +55,8 @@
   
   #preview{
     justify-items: flex-start;
-    height: 500px;
+    min-height: 500px;
+    max-height:fit-content;
     width: 40vw;
     margin: 1.125rem 0 0 20px ;
     border: 3px solid #535bf2;
@@ -63,6 +64,7 @@
   padding: 10px;
   }
 }
+
 
 .credits{
   display: flex;
