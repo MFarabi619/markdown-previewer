@@ -15,3 +15,4 @@
   * Created a separate development branch in order to follow better practices
 * Learned more Vim commands to speed up development
 * Ran 'npm install react-markdown' for markdown parser instead of marked.js due to security issue with dangerouslySetInnerHTML
+* [Steps](https://vitejs.dev/guide/static-deploy.html) for deploying on [Vercel](https://vercel.com/). Got an error for running scripts disabled on the system, fixed it by following [this](https://www.roelpeters.be/solved-running-scripts-is-disabled-on-this-system-in-powershell/).
