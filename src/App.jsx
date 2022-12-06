@@ -11,7 +11,7 @@ function App() {
   '## This is a small web app that renders any markdown that is inputted into this box\n\n' +
   'This is an example of a paragraph\n\n' +
   '[Basic Markdown Syntax can be found at this website](https://www.markdownguide.org/basic-syntax/)\n\n' +
-  ''
+  '    let codeBlock = \'This is a string\''
   
   );
 
