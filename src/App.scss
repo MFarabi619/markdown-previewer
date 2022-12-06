@@ -1,0 +1,72 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+// .logo {
+//   height: 6em;
+//   padding: 1.5em;
+//   will-change: filter;
+// }
+// .logo:hover {
+//   filter: drop-shadow(0 0 2em #646cffaa);
+// }
+// .logo.react:hover {
+//   filter: drop-shadow(0 0 2em #61dafbaa);
+// }
+
+// @keyframes logo-spin {
+//   from {
+//     transform: rotate(0deg);
+//   }
+//   to {
+//     transform: rotate(360deg);
+//   }
+// }
+
+// @media (prefers-reduced-motion: no-preference) {
+//   a:nth-of-type(2) .logo {
+//     animation: logo-spin infinite 20s linear;
+//   }
+// }
+
+// .card {
+//   padding: 2em;
+// }
+
+// .read-the-docs {
+//   color: #888;
+// }
+
+.container{
+  display: flex;
+
+  #editor {
+    height: 500px;
+   width: 40vw;
+    align-self: flex-start;
+    margin: 1.125rem auto;
+  background-color: hsl(237, 16%, 26%);
+  border-radius: 15px;
+  outline: none;
+  padding: 10px;
+  }
+  
+  #preview{
+    justify-items: flex-start;
+    height: 500px;
+    width: 40vw;
+    margin: 1.125rem 0 0 20px ;
+    border: 3px solid #535bf2;
+    border-radius: 15px;
+  padding: 10px;
+  }
+}
+
+.credits{
+  display: flex;
+  justify-content: center;
+  font-size: xx-small;
+  color: grey;
+}
