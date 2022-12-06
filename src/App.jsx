@@ -7,11 +7,11 @@ function App() {
   // const [count, setCount] = useState(0)
 
   const [text, setText] = useState(
-  `\n# Markdown previewer application\n\n
-## This is a small web app that renders any markdown that is inputted into this box\n\n
-This is an example of a paragraph\n\n
-[Basic Markdown Syntax can be found at this website](https://www.markdownguide.org/basic-syntax/)\n\n
-Here is some inline code: \`<div></div>\`\n
+  `\n# Markdown previewer application\n
+## This is a small web app that renders any markdown that is inputted into this box\n
+This is an example of a paragraph\n
+[Basic Markdown Syntax can be found at this website](https://www.markdownguide.org/basic-syntax/)\n
+Here is some inline code: \`<div></div>\`
 
 \`\`\`
 // this is multi-line code:
@@ -23,7 +23,7 @@ function anotherExample(firstLine, lastLine) {
 }
 \`\`\`
 
->This is a blockquote\n\n
+>This is a blockquote\n
 * **This is some bolded text in a list, below is an image:**\n\n
 ![Image](https://vitejs.dev/assets/vite.17e50649.svg)`
   );
@@ -63,9 +63,7 @@ value = {text}>
       </textarea>
         <div id="preview">
         <ReactMarkdown>
-            {
-text.replace(/\n/gi, '\n &nbsp;')
-      }
+            {text}
         </ReactMarkdown>
       </div>
 
