@@ -45,8 +45,8 @@
   #editor {
     height: 500px;
    width: 40vw;
+    margin: 0 0 0 0px ;
     align-self: flex-start;
-    margin: 1.125rem auto;
   background-color: hsl(237, 16%, 26%);
   border-radius: 15px;
   outline: none;
@@ -58,11 +58,16 @@
     min-height: 500px;
     max-height:fit-content;
     width: 40vw;
-    margin: 1.125rem 0 0 20px ;
+    margin: 0 0 0 20px ;
     border: 3px solid #535bf2;
     border-radius: 15px;
   padding: 10px;
   }
+}
+
+h3{
+  padding: none;
+  margin: none;
 }
 
 
