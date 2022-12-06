@@ -5,8 +5,19 @@ import './App.scss'
 function App() {
   const [count, setCount] = useState(0)
 
+  const [text, setText] = useState(
+  '\n# Markdown previewer application\n\n' +
+  '## This is a small web app that renders any markdown that is inputted into this box\n\n' +
+  'This is an example of a paragraph\n\n' +
+  '[Basic Markdown Syntax can be found at this website](https://www.markdownguide.org/basic-syntax/)\n\n' +
+  ''
+  
+  );
+
+  
   return (
     <div className="App">
+
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src="/vite.svg" className="logo" alt="Vite logo" />
@@ -15,8 +26,6 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div> */}
-
-
       {/* <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
         count is {count}
@@ -31,8 +40,20 @@ function App() {
 
       
       
-<p>Created with Vite + React by Mumtahin Farabi</p>
+      
+<textarea id="editor" onChange={(event) => {
+  setText(event.target.value);
+}}
+value = {text}>
+      </textarea>
+      <div id="preview">
+      {text}
+      </div>
+
+      <p>Created with Vite + React by Mumtahin Farabi</p>
+      
     </div>
+    
   )
 }
 
