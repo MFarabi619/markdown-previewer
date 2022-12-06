@@ -1,8 +1,7 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  padding: 1rem;
 }
 
 // .logo {
@@ -40,4 +39,34 @@
 //   color: #888;
 // }
 
+.container{
+  display: flex;
 
+  #editor {
+    height: 500px;
+   width: 40vw;
+    align-self: flex-start;
+    margin: 1.125rem auto;
+  background-color: hsl(237, 16%, 26%);
+  border-radius: 15px;
+  outline: none;
+  padding: 10px;
+  }
+  
+  #preview{
+    justify-items: flex-start;
+    height: 500px;
+    width: 40vw;
+    margin: 1.125rem 0 0 20px ;
+    border: 3px solid #535bf2;
+    border-radius: 15px;
+  padding: 10px;
+  }
+}
+
+.credits{
+  display: flex;
+  justify-content: center;
+  font-size: xx-small;
+  color: grey;
+}

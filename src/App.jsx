@@ -4,7 +4,7 @@ import ReactMarkdown from 'react-markdown'
 import './App.scss'
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   const [text, setText] = useState(
   '\n# Markdown previewer application\n\n' +
@@ -39,8 +39,8 @@ function App() {
         Click on the Vite and React logos to learn more
       </p> */}
 
-      
-      
+      <div className='container'>
+
       
 <textarea id="editor" onChange={(event) => {
   setText(event.target.value);
@@ -53,8 +53,9 @@ value = {text}>
         </ReactMarkdown>
       </div>
 
-      <p>Created with Vite + React by Mumtahin Farabi</p>
       
+  </div>
+      <p className='credits'>Created with Vite + React by Mumtahin Farabi</p>
     </div>
     
   )
