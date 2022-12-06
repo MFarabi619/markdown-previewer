@@ -26,10 +26,9 @@ function anotherExample(firstLine, lastLine) {
 >This is a blockquote\n\n
 * **This is some bolded text in a list, below is an image:**\n\n
 ![Image](https://vitejs.dev/assets/vite.17e50649.svg)`
-
-  
   );
 
+  
   
   return (
     <div className="App">
@@ -62,9 +61,11 @@ function anotherExample(firstLine, lastLine) {
 }}
 value = {text}>
       </textarea>
-      <div id="preview">
+        <div id="preview">
         <ReactMarkdown>
-      {text}
+            {
+text.replace(/\n/gi, '\n &nbsp;')
+      }
         </ReactMarkdown>
       </div>
 
