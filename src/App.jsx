@@ -1,5 +1,6 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+// import reactLogo from './assets/react.svg'
+import ReactMarkdown from 'react-markdown'
 import './App.scss'
 
 function App() {
@@ -47,7 +48,9 @@ function App() {
 value = {text}>
       </textarea>
       <div id="preview">
+        <ReactMarkdown>
       {text}
+        </ReactMarkdown>
       </div>
 
       <p>Created with Vite + React by Mumtahin Farabi</p>

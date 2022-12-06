@@ -14,4 +14,4 @@
   * Was previously using GitHub Desktop to commit and push changes
   * Created a separate development branch in order to follow better practices
 * Learned more Vim commands to speed up development
-
+* Ran 'npm install react-markdown' for markdown parser
