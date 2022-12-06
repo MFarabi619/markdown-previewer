@@ -45,7 +45,6 @@
   #editor {
     height: 500px;
    width: 40vw;
-    margin: 0 0 0 0px ;
     align-self: flex-start;
   background-color: hsl(237, 16%, 26%);
   border-radius: 15px;
@@ -64,12 +63,6 @@
   padding: 10px;
   }
 }
-
-h3{
-  padding: none;
-  margin: none;
-}
-
 
 .credits{
   display: flex;

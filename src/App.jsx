@@ -55,21 +55,17 @@ function anotherExample(firstLine, lastLine) {
 
       <div className='container'>
 
-        <div className="editorContainer">
 <textarea id="editor" onChange={(event) => {
   setText(event.target.value);
 }}
 value = {text}>
         </textarea>
-  </div>
         
-        <div className="previewerContainer">
         <div id="preview">
         <ReactMarkdown>
             {text}
         </ReactMarkdown>
       </div>
-        </div>
 
       
   </div>
