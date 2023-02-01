@@ -3,7 +3,7 @@
 
  [Live Demo](https://markdown-previewer-mfarabi.vercel.app/)
 
- ![Image](https://i.ibb.co/s2bNzHg/Screenshot-2022-12-06-012822.jpg)
+ ![Image](https://github.com/MFarabi619/markdown-previewer/blob/main/src/assets/Screenshot%202023-02-01%20052937.jpg?raw=true)
 
 ## Learning log for this project
 * Used [Vite](https://vitejs.dev/) to set up project instead of [create-react-app](https://reactjs.org/docs/create-a-new-react-app.html)
